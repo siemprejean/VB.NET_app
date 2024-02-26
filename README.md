@@ -1,2 +1,5 @@
 # VB.NET_app
-These repository contains my VB.NET app which uses a connection to SQL server
+These repository contains my VB.NET app which uses a connection to SQL server. This app main function is to work as a student management application in which you can search/delete/remove or modify an student information accordingly. Uses stored procedures to do the changes and make the sql queries of the studends, has a tab for presentation(mostly used as a main page required for the college professor) a tab for the main code and an exit tab.
+Once you open it you are unable to type in any other field except the "cedula" camp which would be the ID field. When you press search the app will look in the sql database if the ID exists, if it does the user can modify or remove it from the database, the "Buscar" and "agregar" which would be the search and add buttons would be locked. The "limpiar", "modificar" and "eliminar" buttons will be free to use, these would be the clean, modify and remove options.
+If the ID doesnt exist, the system will automatically ask to add the student. All the other fields will be empty, the search, modify and remove buttons will be locked and the add and clean buttons will be free to use.
+
